@@ -1,0 +1,20 @@
+{
+  "name": "morrow_world-blog",
+  "description": "The library for developing Morrow World blog powered by WordPress.",
+  "main": "",
+  "authors": [
+    "Taiki Niimi"
+  ],
+  "license": "UNLICENSED",
+  "moduleType": [],
+  "homepage": "https://github.com/wicrep/morrow_world-blog",
+  "private": true,
+  "dependencies": {
+    "jquery": "^2.2.1",
+    "css-browser-selector": "*",
+    "slick-carousel": "^1.6.0"
+  },
+  "devDependencies": {
+    "flickity": "^1.2.1"
+  }
+}
