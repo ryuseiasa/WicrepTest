@@ -22,13 +22,15 @@
   font-family: 'PT Serif', serif;
 }
 
+////////////////////
+// COLOR
+////////////////////
+$gray: #999;
 
 ////////////////////
-// Z-INDEX
+// FONT
 ////////////////////
-
-$siriwave: 20;
-$siriText: 10;
+$base: 12px;
 
 //////////////////////////////
 // EASING
@@ -63,13 +65,14 @@ $easeOutQuart: cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 @mixin hoverFade {
-  transition: opacity .2s ease-out;
+  transition: all .2s $easeOutQuart;
   cursor: pointer;
 
   &:hover {
     opacity: .7;
+    cursor: pointer;
     @include respond-to {
-      opacity: 1;
+      // opacity: 1;
     }
   }
 }
